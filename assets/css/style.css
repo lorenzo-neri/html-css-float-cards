@@ -9,18 +9,56 @@ body{
     max-width: 1170px;
     width: 80%;
     margin: auto;
-    text-align: center;
+}
+
+header{
+text-align: center;
+}
+
+h1{
+    padding: 1.5rem;
+}
+
+header>section{
+    padding: 1rem;
 }
 
 .col{
-    height: 200px;
-    width: calc(100%/3);
+    height: 5.1rem;
+    width: calc(80%/3);
     float: left;
+    margin: 20px;
+    background-color: #0f0f16;
+    color: #fefefe;
+}
+
+img{
+    width: 5rem;
+    aspect-ratio: 1/1;
+    float: left;
+}
+
+.info_person{
+    margin-left: 5.5rem;
+    padding: 10px 0;
+}
+
+a{
+    color: #33c7e8;
+    text-decoration: none;
+}
+
+/* utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Debug */
 
-.debug .col{
+/* .debug .col{
     background-color: green;
     border: 1px solid black;
-}
+} */
