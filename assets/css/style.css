@@ -4,3 +4,23 @@
     padding: 0;
     font-family: 'Fredoka', sans-serif;
 }
+
+body{
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.col{
+    height: 200px;
+    width: calc(100%/3);
+    float: left;
+}
+
+/* Debug */
+
+.debug .col{
+    background-color: green;
+    border: 1px solid black;
+}
